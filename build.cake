@@ -12,8 +12,8 @@ var UNIT_TEST_ASSEMBLY = "nunit.v2.driver.tests.dll";
 var INTEGRATION_TEST_ASSEMBLY = "v2-tests/v2-test-assembly.dll";
 var GITHUB_SITE = "https://github.com/nunit/nunit-v2-framework-driver";
 var WIKI_PAGE = "https://github.com/nunit/docs/wiki/Console-Command-Line";
-var NUGET_ID = "NUnit.Extension.NUnitV2Driver";
-var CHOCO_ID = "nunit-extension-nunit-v2-driver";
+var NUGET_ID = "Edlund.NUnit.Extension.NUnitV2Driver";
+var CHOCO_ID = "Edlund.nunit-extension-nunit-v2-driver";
 var VERSION = "3.7.0";
 
 // Metadata used in the nuget and chocolatey packages
