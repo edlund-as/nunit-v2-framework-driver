@@ -12,19 +12,19 @@ var UNIT_TEST_ASSEMBLY = "nunit.v2.driver.tests.dll";
 var INTEGRATION_TEST_ASSEMBLY = "v2-tests/v2-test-assembly.dll";
 var GITHUB_SITE = "https://github.com/nunit/nunit-v2-framework-driver";
 var WIKI_PAGE = "https://github.com/nunit/docs/wiki/Console-Command-Line";
-var NUGET_ID = "Edlund.NUnit.Extension.NUnitV2Driver";
-var CHOCO_ID = "Edlund.nunit-extension-nunit-v2-driver";
+var NUGET_ID = "NUnit.Extension.NUnitV2Driver.Edlund";
+var CHOCO_ID = "nunit-extension-nunit-v2-driver-edlund";
 var VERSION = "3.7.0";
 
 // Metadata used in the nuget and chocolatey packages
-var TITLE = "NUnit 3 - NUnit V2 Framework Driver Extension";
+var TITLE = "NUnit 3 - NUnit V2 Framework Driver Extension (Edlund)";
 var AUTHORS = new [] { "Charlie Poole" };
 var OWNERS = new [] { "Charlie Poole" };
-var DESCRIPTION = "This extension allows NUnit to load and run tests compiled against earlier versions of the NUnit framework. Versions 2.0 through 2.6.4 are supported.";
-var SUMMARY = "NUnit Engine extension allowing execution of tests using NUnit 2.x.";
+var DESCRIPTION = "This extension allows NUnit to load and run tests compiled against earlier versions of the NUnit framework. Versions 2.0 through 2.6.4 are supported. Edlund version.";
+var SUMMARY = "NUnit Engine extension allowing execution of tests using NUnit 2.x (Edlund version).";
 var COPYRIGHT = "Copyright (c) 2017 Charlie Poole";
 var RELEASE_NOTES = new [] { "See https://raw.githubusercontent.com/nunit/nunit-v2-framework-driver/master/CHANGES.txt" };
-var TAGS = new [] { "nunit", "test", "testing", "tdd", "runner" };
+var TAGS = new [] { "edlund", "nunit", "test", "testing", "tdd", "runner" };
 
 //////////////////////////////////////////////////////////////////////
 // ARGUMENTS
