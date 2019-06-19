@@ -14,7 +14,7 @@ var GITHUB_SITE = "https://github.com/nunit/nunit-v2-framework-driver";
 var WIKI_PAGE = "https://github.com/nunit/docs/wiki/Console-Command-Line";
 var NUGET_ID = "NUnit.Extension.NUnitV2Driver.Edlund";
 var CHOCO_ID = "nunit-extension-nunit-v2-driver-edlund";
-var VERSION = "3.7.1";
+var VERSION = "3.7.100";
 
 // Metadata used in the nuget and chocolatey packages
 var TITLE = "NUnit 3 - NUnit V2 Framework Driver Extension (Edlund)";
@@ -115,7 +115,9 @@ if (binaries != null)
 var PACKAGE_SOURCE = new string[]
     {
         "https://www.nuget.org/api/v2",
-        "https://www.myget.org/F/nunit/api/v2"
+        "https://www.myget.org/F/nunit/api/v2",
+        "https://proget.edlund.dk/nuget/nuget/",
+        @"C:\src\nunit\nuget-packages"
     };
 
 //////////////////////////////////////////////////////////////////////
